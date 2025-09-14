@@ -1,0 +1,11 @@
+1 - Corte ok
+2 - Barba  
+3 - Depilação nariz ok
+4 - Hidratação ok
+5 - Selagem 
+6 - Limpeza de pele ok
+7 - luzes e platinado ok
+8 - sobrancelha
+9 - numero telefone para redirecionar quando clicar no botão
+10 - link do instgram para redirecionar quando clicar no botão
+11 endereço das duas unidades 

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbearia Sayllon</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    /> -->
+  </head>
+  <body>
+    <!-- logo -->
+    <img
+      class="logo"
+      style="height: 300px"
+      src="img/Logo celular Sayllon_Ribeiro.png"
+      alt=""
+    />
+
+    <!-- botões  -->
+    <div class="btn">
+      <a href=""><img src="img/icons8-whatsapp-50.png" alt="" /></a>
+      <a
+        target="_blank"
+        href="https://www.instagram.com/sayllonbarbeariaorla?igsh=MTJ3NWcwb3Vobnp6aQ=="
+        ><img src="img/icons8-instagram-48.png" alt=""
+      /></a>
+    </div>
+
+    <!-- Container do carrossel -->
+    <h2 class="titulo-servicos">Nossos Serviços</h2>
+    <div class="servicos">
+      <div class="carousel">
+        <button class="carousel-btn prev">&#10094;</button>
+        <div class="carousel-track">
+          <img src="img/Post Cabelo.png" alt="1" />
+          <img src="img/Post hidratacao.png" alt="2" />
+          <img src="img/Post platinado.png" alt="3" />
+          <img src="img/Post depilacao.png" alt="4" />
+          <img src="img/Post limpeza pele.png" alt="5" />
+        </div>
+        <button class="carousel-btn next">&#10095;</button>
+      </div>
+    </div>
+
+    <div class="texto-estilo">
+      <p>R. ANTÔNIO MARIA COELHO, 584 - VILA PLANALTO, CAMPO GRANDE - MS</p>
+      <p>R. NAVIRAI, 324 - VILA MARGARIDA, CAMPO GRANDE - MS</p>
+    </div>
+  </body>
+
+  <script>
+  const track = document.querySelector('.carousel-track');
+  const slides = Array.from(track.children);
+  const prevButton = document.querySelector('.carousel-btn.prev');
+  const nextButton = document.querySelector('.carousel-btn.next');
+  
+  let currentIndex = 0;
+
+  function updateCarousel() {
+    const slideWidth = slides[0].getBoundingClientRect().width;
+    track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+  }
+
+  nextButton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % slides.length;
+    updateCarousel();
+  });
+
+  prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    updateCarousel();
+  });
+
+  window.addEventListener('resize', updateCarousel);
+
+  // inicia na posição correta
+  updateCarousel();
+</script>
+
+
+</html>
