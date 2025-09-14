@@ -33,7 +33,6 @@ body {
 }
 
 .btn a img {
-  width: 60px;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
@@ -44,7 +43,7 @@ body {
 
 /* ===== TÍTULO SEÇÃO ===== */
 .titulo-servicos {
-  color: #f5c542;
+  color: #c7a463;
   font-size: 36px;
   font-weight: 700;
   text-align: center;
@@ -52,6 +51,20 @@ body {
   /* margin-bottom: 5px; */
   text-transform: uppercase;
   letter-spacing: 3px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  
+}
+
+/* ===== TÍTULO CONTATO ===== */
+.titulo-contato {
+  color: #c7a463;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  /* margin-top: 5px; */
+  /* margin-bottom: 5px; */
+  text-transform: uppercase;
+  /* letter-spacing: 3px; */
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
 }
 
