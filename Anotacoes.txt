@@ -1,11 +1,16 @@
 1 - Corte ok
-2 - Barba  
-3 - Depilação nariz ok
-4 - Hidratação ok
-5 - Selagem 
-6 - Limpeza de pele ok
-7 - luzes e platinado ok
-8 - sobrancelha
-9 - numero telefone para redirecionar quando clicar no botão
-10 - link do instgram para redirecionar quando clicar no botão
-11 endereço das duas unidades 
+2 - Depilação nariz ok
+3 - Hidratação ok
+4 - Limpeza de pele ok
+5 - luzes e platinado ok
+6 endereço das duas unidades ok 
+7 - numero telefone para redirecionar quando clicar no botão : 5567993330718 ok
+8 - link do instgram para redirecionar quando clicar no botão ok
+
+
+9 - Barba  
+10- Selagem 
+
+
+11 - sobrancelha ?
+12 - mensagem pronta para o usuario enviar quando for redirecionado para o whatsapp ?

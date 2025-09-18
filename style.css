@@ -151,3 +151,14 @@ body {
   right: 10px;
 }
 
+/* ===== LINHA ESTILIZADA ===== */
+.linha-estilo {
+  border: none;
+  height: 2px;
+  width: 80%;
+  margin: 30px auto;
+  background: linear-gradient(to right, transparent, #c7a463, transparent);
+  box-shadow: 0 2px 6px rgba(199, 164, 99, 0.4);
+  border-radius: 5px;
+   max-width: 900px; 
+}
